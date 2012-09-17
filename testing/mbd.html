@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+#div1 {width:350px;height:70px;padding:10px;border:1px solid #aaaaaa;}
+</style>
+	<script type="text/javascript" src="form.js">
+	</script>
+	<title>Test bed</title>
+<h1>GHANTA</h1>
+<body>
+	<audio controls="controls">
+    	<source src="s.mp3" type="audio/mpeg" />
+  		Your browser does not support the audio element.
+	</audio>
+	<!--<article>
+		<div style="text-align:center"> 
+ 		 <button onclick="playPause()">Play/Pause</button> 
+  		 <button onclick="makeBig()">Big</button>
+  		 <button onclick="makeSmall()">Small</button>
+  		 <button onclick="makeNormal()">Normal</button>
+  		<br /><input type="text" id="101"/>
+		<video width="320" height="240" controls="controls">
+  		<source src="C:\xampp\htdocs\Happy_Birthday_Song.mp4" type="video/mp4" />
+  		Your browser doesn't support browser
+    	</video>
+	</article>-->
+  <article>
+  	<header>
+  		<h2 id = "h">LOGIN portion</h2>
+  		<time datetime="2012-9-16" pubdata>September 16, 2012</time>
+  		<p>Please provide the authentication credentials to continue:</p>
+  		 <section>
+  		  <form method="POST" action="#" enctype="application/x-www-form-urlencoded" id="frm">
+  		  <p>Username: <input type="text" name="username" id="username" size="27" placeholder="tung tung" required/></p>
+  		  <p>Password: <input type="password" name="passwd" id="passwd" size="27" required/></p>
+  		   <p>
+  		    <input type="submit" name="submit" id="submit" value="Submit" onClick= validate() />
+  		    <input type="reset" name="reset" id="reset" value="Reset"/>
+  		   </p>
+  		 </form>
+  		  </section>
+
+  	</header>
+  </article>
+  <article>
+  	<header>
+  		<h2>Choose your courses</h2></header>
+  		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+			<br />
+		<img id="drag1" src="apache_pb2.png" draggable="true" ondragstart="drag(event)" width="259" height="32" />
+
+  </article>
+<div id = "1024"><h2>a</h2></div>
+</body>
+<footer><f1>GHANTA</f1></footer>
+</html>
